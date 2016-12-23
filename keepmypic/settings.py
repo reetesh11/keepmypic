@@ -25,7 +25,7 @@ SECRET_KEY = '282v2pyy$^mehe5a8yil^**=!kw_+eu7c%czpg+o0@yvx@z44m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['keepmypic.herokuapp.com']
 
 
 # Application definition
