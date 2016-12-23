@@ -1,7 +1,7 @@
 from django.shortcuts import render_to_response
 from django.views.generic import View
 from django.http import HttpResponseRedirect, HttpResponse
-from forms import ImageUploadForm
+from upload.forms import ImageUploadForm
 from models import Photos, Thumbnail
 
 class UploadPic(View):
